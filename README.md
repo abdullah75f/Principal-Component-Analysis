@@ -7,11 +7,9 @@ A web application demonstrating facial emotion recognition. It compares a baseli
 **Input / Camera View:**
 ![Application Input/Camera View](frontend/public/image.png)
 
-
 **Analysis Results:**
 ![Application Results Display](frontend/public/image1.png)
-*Description:* The results screen clearly presents the outcome after analyzing an image. It details the PCA transformation (e.g., reducing 9216 original features down to 273 principal components while retaining 95.0% of the variance). It then directly compares the predicted emotion and confidence score from the Baseline model (e.g., Fear at 44.1%) against the prediction from the PCA-optimized model (e.g., Sad at 34.6%), allowing users to see the impact of PCA on this specific prediction.
-
+_Description:_ The results screen clearly presents the outcome after analyzing an image. It details the PCA transformation (e.g., reducing 9216 original features down to 273 principal components while retaining 95.0% of the variance). It then directly compares the predicted emotion and confidence score from the Baseline model (e.g., Fear at 44.1%) against the prediction from the PCA-optimized model (e.g., Sad at 34.6%), allowing users to see the impact of PCA on this specific prediction.
 
 ## Features
 
@@ -25,6 +23,12 @@ A web application demonstrating facial emotion recognition. It compares a baseli
 
 - **Frontend:** React, TypeScript, Tailwind CSS, Framer Motion, Axios
 - **Backend:** Python, Flask, LightGBM, Scikit-learn (PCA, Scaler), Joblib, OpenCV, Pillow
+
+## Mathematical Background (Eigenvalues/Eigenvectors)
+
+The Principal Component Analysis (PCA) technique used in this project relies on eigenvalue decomposition. A detailed, step-by-step explanation of how eigenvalues and eigenvectors are calculated from scratch, including the characteristic equation, can be found in the supplementary document:
+
+**[PCA Task - Appendix A: Eigenvalue and Eigenvector Calculation](https://docs.google.com/document/d/1FKm6LOXnHRu5u7a3XQHC1fWEVHBqc5SCcsHtydrn8UY/edit?usp=sharing)**
 
 ## Setup & Running
 
