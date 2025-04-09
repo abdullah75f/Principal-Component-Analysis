@@ -10,7 +10,8 @@ A web application demonstrating facial emotion recognition. It compares a baseli
 
 **Analysis Results:**
 ![Application Results Display](frontend/public/image1.png)
-_(Replace `<./path/to/screenshot_results.png>` with the actual path to your screenshot)_
+*Description:* The results screen clearly presents the outcome after analyzing an image. It details the PCA transformation (e.g., reducing 9216 original features down to 273 principal components while retaining 95.0% of the variance). It then directly compares the predicted emotion and confidence score from the Baseline model (e.g., Fear at 44.1%) against the prediction from the PCA-optimized model (e.g., Sad at 34.6%), allowing users to see the impact of PCA on this specific prediction.
+
 
 ## Features
 
